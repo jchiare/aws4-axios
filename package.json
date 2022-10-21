@@ -1,6 +1,6 @@
 {
   "name": "aws4-axios",
-  "version": "0.0.0-development",
+  "version": "2.4.10",
   "description": "Axios request interceptor for signing requests with AWSv4",
   "author": "James Bourne",
   "repository": {
@@ -65,7 +65,7 @@
     "aws4": "^1.9.1"
   },
   "peerDependencies": {
-    "axios": ">=0.25.0"
+    "axios": ">=0.25.0 < 1"
   },
   "husky": {
     "hooks": {
